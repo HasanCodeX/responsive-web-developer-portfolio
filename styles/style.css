@@ -1,0 +1,250 @@
+.open-sans-custom {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* nav-design */
+.nav-design {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+/* nav-title */
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 50px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+/* shared-style */
+.text-primary {
+  color: rgb(253, 110, 10);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.text-secondary {
+  color: gray;
+}
+
+.text-third {
+  color: black;
+}
+
+.btn-primary {
+  background-color: rgb(253, 110, 10);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border: none;
+}
+
+.baner {
+  background-image: url(../images/header_bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.banner-title {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-heading {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-btn {
+  display: flex;
+
+  gap: 20px;
+}
+
+/* about style */
+.about-box {
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 70px;
+}
+
+.about-me {
+  position: relative;
+  max-width: 600px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(200, 200, 200);
+  background: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-description {
+  padding: 20px;
+}
+
+/* what-i-do section-design */
+
+.what-elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.what-description {
+  padding: 20px;
+  color: rgb(117, 117, 117);
+}
+.what-title {
+  text-align: center;
+}
+
+.skill-box {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding-left: 20px;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-box {
+  width: 20%;
+  height: 20%;
+}
+
+/* resumi style  */
+.resume-elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#resumi-title {
+  text-align: center;
+  color: black;
+}
+
+#resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+/* footer-style */
+.footer-box {
+  background: rgb(255, 248, 243);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  justify-content: left;
+}
+.footer-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+.footer-text{
+  justify-content: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
